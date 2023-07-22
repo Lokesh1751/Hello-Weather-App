@@ -133,6 +133,7 @@ body{
         left: 10%;
         top: 20%;
     }
+    
     #cont{
         top: 600px;
         left: 20px;
@@ -144,4 +145,6 @@ body{
         background-repeat:no-repeat;
         background-size: 1000px;
     }
+    #main{
+        margin-bottom:40px;
 }
