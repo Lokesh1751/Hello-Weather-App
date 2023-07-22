@@ -99,6 +99,7 @@ body{
     height: 500px;
     padding: 20px;
     cursor: pointer;
+    overflow:hidden;
 }
 
 #main{
