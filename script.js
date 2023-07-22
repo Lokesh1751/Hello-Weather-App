@@ -46,5 +46,6 @@ bt.addEventListener("click", () => {
     const dba = document.getElementById("cont");
     dba.style.borderRadius = "4px";
     dba.style.boxShadow = "1px 1px 14px black";
+      dba.style.backgroundImage="url('bg2.avif')"
   });
 });
