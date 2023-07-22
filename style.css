@@ -140,7 +140,8 @@ body{
         width: 82vw;
         height: 500px;
         left: 0%;
-        margin: 10px;
+        margin-left: 10px;
+        margin-right:10px;
 
     }
     body{
