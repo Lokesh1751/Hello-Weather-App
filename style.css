@@ -146,6 +146,7 @@ body{
         background-size: 1000px;
     }
     #main{
-         font-size: 30px;
+        margin-bottom:10px;
+         font-size: 45px;
     }
 }
