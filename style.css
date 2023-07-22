@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
+.box{
+    /* background-color: rgb(160, 216, 243); */
+    background: url('bg2.avif');
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 1px 14px black;
+    cursor: pointer;
+}
+.inputData{
+    padding: 20px;
+}
+#inputField{
+    border-radius: 6px;
+    border: none;
+    padding: 5px;
+}
+#location{
+    font-family: 'Jost', sans-serif;
+    font-size: 40px;
+
+}
+.info{
+    position: absolute;
+    bottom: 5%;
+    color: whitesmoke;
+
+}
+.hh{
+    color: whitesmoke;
+    animation-name: mov;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    font-size: 45px;
+    position: absolute;
+    top: 75px;
+    right: -40px;
+}
+@keyframes mov {
+    0%{
+        position: absolute;
+        left: -55px;
+    }
+    50%{
+        position: absolute;
+        left: -52px;
+    }
+    75%{
+        position: absolute;
+        left: -51px;
+    }
+    100%{
+        position: absolute;
+        left: -50px;
+    }
+}
+
+#btn{
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+   color: wheat ;
+   margin: 3px;
+   transition: 0.4s ease-in-out;
+}
+#btn:hover{
+    background-color: rgb(55, 54, 54);
+}
+#cont{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+
+body{
+    background: url(bg2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Jost', sans-serif;
+}
+#cont{
+    position: absolute;
+    right: 300px;
+    top: 100px;
+    color: wheat;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    padding: 20px;
+    cursor: pointer;
+}
+
+#main{
+    color: rgb(245, 245, 245);
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'chiller';
+    font-size: 60px;
+    margin: 20px;
+    font-weight: bolder;
+}
+@media screen and (max-width:1200px) {
+    .box{
+        left: 340px;
+    }
+    #cont{
+        position: absolute;
+        top: 690px;
+        left: 300px;
+        width: 320px;
+        height: 500px;
+    }
+    body{
+        background: url('bg2.avif');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .box{
+        left: 10%;
+        top: 15%;
+    }
+    #cont{
+        top: 600px;
+        left: 10px;
+        width: 320px;
+        height: 500px;
+    }
+    body{
+        background: url('bg2.avif');
+        background-repeat:no-repeat;
+        background-size: 1000px;
+    }
+}
