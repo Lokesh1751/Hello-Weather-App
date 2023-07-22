@@ -130,15 +130,18 @@ body{
 
 @media screen and (max-width:700px) {
     .box{
-        left: 15%;
-        top: 20%;
+        top: 15%;
+        width: 90vw;
+        left: 0%;
+        margin: 10px;
     }
-    
     #cont{
         top: 600px;
-        left: 28px;
-        width: 320px;
+        width: 82vw;
         height: 500px;
+        left: 0%;
+        margin: 10px;
+
     }
     body{
         background: url('bg2.avif');
