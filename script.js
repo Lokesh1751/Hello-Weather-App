@@ -20,10 +20,10 @@ bt.addEventListener("click", () => {
     `https://api.openweathermap.org/data/2.5/weather?q=${inputf.value}&appid=3a9bcf5b3e8bba86f468b3ebe7e1722c`
   );
   const g = h.then((response) => response.json());
-   loc.innerHTML = d.name;
+   inputf.value='';
   const m = g.then((d) => {
     tm.innerHTML = (d.main.temp - 273.15).toFixed(1) + "℃";
-     inputf.value='';
+     loc.innerHTML = d.name;
     minmax.innerHTML =
       d.sys.country +
       " | Min:" +
